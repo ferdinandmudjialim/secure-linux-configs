@@ -1,0 +1,3 @@
+## The system automatically checks for updates daily - Add to /etc/apt/apt.conf.d/20auto-upgrades (if not exists)
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "1";
